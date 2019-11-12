@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Live Effects</title>
-	<style>
-		body, html {
-			width: 100%;
-			height: 100%;
-			padding: 0;
-		}
+  <title>Live Effects</title>
+  <style>
+    body, html {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
 
-		canvas {
-			display: block;
-			width: 100%;
-			height: 100%;
-		}
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
 
-		#menu {
-			display: table;
-			position: absolute;
-			left: 1em;
-			top: 1em;
-		}
+    #menu {
+      display: table;
+      position: absolute;
+      left: 1em;
+      top: 1em;
+    }
 
-		#menu > * {
-			display: table-row;
-		}
+    #menu > * {
+      display: table-row;
+    }
 
-		#menu > * > * {
-			display: table-cell;
-		}
-	</style>
+    #menu > * > * {
+      display: table-cell;
+    }
+  </style>
 </head>
 <body>
-	<div id="menu">
-		<div>
-			<div>Item Color</div>
-			<input id="item-color" type="color">
-		</div>
-		<div>
-			<div>Flatness:</div>
-			<input id="flatness" type="range" min="0" max="20">
-		</div>
-		<div>
-			<div>Color shift:</div>
-			<input id="color-shift" type="range" min="0" max="360">
-		</div>
-		<div>
-			<div>Shake:</div>
-			<input id="shake" type="range" min="0" max="100">
-		</div>			
-	</div>
-	<canvas></canvas>
+  <div id="menu">
+    <div>
+      <div>Item Color</div>
+      <input id="item-color" type="color">
+    </div>
+    <div>
+      <div>Flatness:</div>
+      <input id="flatness" type="range" min="0" max="20">
+    </div>
+    <div>
+      <div>Color shift:</div>
+      <input id="color-shift" type="range" min="0" max="360">
+    </div>
+    <div>
+      <div>Shake:</div>
+      <input id="shake" type="range" min="0" max="100">
+    </div>      
+  </div>
+  <canvas></canvas>
 </body>
 </html>
